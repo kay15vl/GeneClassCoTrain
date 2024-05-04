@@ -1,0 +1,36 @@
+lr_accuracy:0.4857142857142857
+lp_accuracy:0.5058616647127784
+lr_f1_score:0.6538461538461539
+lp_f1_score:0.6640095655639698
+lr_balanced_accuracy:0.4857142857142857
+lp_balanced_accuracy:0.5515096618357488
+lr_precision:1.0
+lp_precision:0.9765533411488863
+lr_recall:0.4857142857142857
+lp_recall:0.5030193236714976
+lr_report:              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         0
+           1       1.00      0.49      0.65        35
+
+    accuracy                           0.49        35
+   macro avg       0.50      0.24      0.33        35
+weighted avg       1.00      0.49      0.65        35
+
+lp_report:              precision    recall  f1-score   support
+
+           0       0.04      0.60      0.07        50
+           1       0.98      0.50      0.66      1656
+
+    accuracy                           0.51      1706
+   macro avg       0.51      0.55      0.37      1706
+weighted avg       0.95      0.51      0.65      1706
+
+lr_roc_curve:(array([0., 1.]), array([0., 1.]))
+lp_roc_curve:(array([0.        , 0.96483001, 1.        ]), array([0.        , 0.97655334, 1.        ]))
+lr_precision_recall_curve:(array([0.48571429, 1.        ]), array([1., 0.]))
+lp_recall_curve:(array([0.5       , 0.50301932, 1.        ]), array([1.        , 0.97655334, 0.        ]))
+lr_confusion_matrix:[[ 0 18]
+ [ 0 17]]
+lp_confusion_matrix:[[ 30 823]
+ [ 20 833]]
